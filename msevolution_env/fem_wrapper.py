@@ -476,7 +476,7 @@ class ODF:
         return cls(quats, **args)
 
     @classmethod
-    def from_ori_file(cls, ori_file, weights='not_set', euler_degrees=True, delimiter=None, **args):
+    def from_ori_file(cls, ori_file, weights=False, euler_degrees=True, delimiter=None, **args):
         """ generate Microstructure object from files in the simulation-output format (one line per ori, tab-separated)
         Args:
             ori_file (Path): Path to simulation output file
@@ -486,11 +486,6 @@ class ODF:
         Returns:
             odf (Microstructure): List of orientations as Quaternion Objects
         """
-        if weights == 'not_set':
-            warnings.warn(
-                f'weights parameter is not set explicitely, it will therefore default to FALSE for input file: {ori_file}')
-            weights = False
-
         if type(ori_file) == str:
             ori_file = Path(ori_file)
         assert ori_file.exists(), f'{ori_file} not existant!'
