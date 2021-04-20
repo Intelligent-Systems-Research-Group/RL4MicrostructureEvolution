@@ -1,6 +1,6 @@
 # RL4MicrostructureEvolution
 Reinforcement Learning Environments for Structure Guided Process Optimization Tasks
-
+![overview.png](overview.png)
 ## Prerequisites
 - compiled microstructure-path simulation and material model (wil be published seperately)
 - Intel Fortran environment to run the simulations and proper environment variables (eg. `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/<username>/intel/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64_lin:/home/<username>/intel/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64_lin`)
