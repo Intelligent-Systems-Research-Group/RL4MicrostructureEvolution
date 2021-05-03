@@ -1,7 +1,6 @@
-# RL4MicrostructureEvolution
 ![RL4MicrostructureEvolution.png](RL4MicrostructureEvolution.png)
 
-
+# RL4MicrostructureEvolution
 Reinforcement Learning Environments for Structure Guided Process Optimization Tasks
 ## Prerequisites
 - Download compiled microstructure-path simulation (uniax_simulator_for_microstructure_evolution_40tasks) and material model from https://fordatis.fraunhofer.de/handle/fordatis/201 and put to /msevolution_env/assets/sim
