@@ -2,7 +2,7 @@
 Reinforcement Learning Environments for Structure Guided Process Optimization Tasks
 ![RL4MicrostructureEvolution.png](RL4MicrostructureEvolution.png)
 ## Prerequisites
-- compiled microstructure-path simulation and material model (wil be published seperately)
+- Download compiled microstructure-path simulation (uniax_simulator_for_microstructure_evolution_40tasks) and material model from https://fordatis.fraunhofer.de/handle/fordatis/201 and put to /msevolution_env/assets/sim
 - Intel Fortran environment to run the simulations and proper environment variables (eg. `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/<username>/intel/compilers_and_libraries_2019.3.199/linux/compiler/lib/intel64_lin:/home/<username>/intel/compilers_and_libraries_2019.3.199/linux/mkl/lib/intel64_lin`)
 
 ## Install and run microstructure-evolution environments
