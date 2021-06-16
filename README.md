@@ -13,12 +13,11 @@ Reinforcement Learning Environments for Structure Guided Process Optimization Ta
 - `python sg_random_agent.py` for single-goal version or `python meg_random_agent.py` for multi-equivalent goal version
 
 ## Cite
-(preprint under review, this reference wil be changed on acceptance)
 ```
-@article{dornheim2020structure,
-  title={Structure-Guided Processing Path Optimization with Deep Reinforcement Learning},
+@article{dornheim2021structure,
+  title={Deep Reinforcement Learning Methods for Structure-Guided Processing Path Optimization},
   author={Dornheim, Johannes and Morand, Lukas and Zeitvogel, Samuel and Iraki, Tarek and Link, Norbert and Helm, Dirk},
-  journal={arXiv preprint arXiv:2009.09706},
-  year={2020}
+  journal={Journal of Intelligent Manufacturing (in press)},
+  year={2021}
 }
 ```
