@@ -14,10 +14,14 @@ Reinforcement Learning Environments for Structure Guided Process Optimization Ta
 
 ## Cite
 ```
-@article{dornheim2021structure,
-  title={Deep Reinforcement Learning Methods for Structure-Guided Processing Path Optimization},
+@article{dornheim2022deep,
+  title={Deep reinforcement learning methods for structure-guided processing path optimization},
   author={Dornheim, Johannes and Morand, Lukas and Zeitvogel, Samuel and Iraki, Tarek and Link, Norbert and Helm, Dirk},
-  journal={Journal of Intelligent Manufacturing (in press)},
-  year={2021}
+  journal={Journal of Intelligent Manufacturing},
+  volume={33},
+  number={1},
+  pages={333--352},
+  year={2022},
+  publisher={Springer}
 }
 ```
